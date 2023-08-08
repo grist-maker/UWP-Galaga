@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>68336152-6798-4d07-bf2e-7ad999d058b5</UniqueIdentifier>
+      <Extensions>bmp;dds;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{e4f0954c-076b-474b-bd91-7ca17f9f9f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{042c2f10-45de-4058-9e0e-466f110642e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{52503dd3-475b-46c3-8918-ae4ae81926d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Fonts">
+      <UniqueIdentifier>{eed66802-85a3-4354-a91f-91a66ddbd0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GalagaCode">
+      <UniqueIdentifier>{6160c363-3649-4009-8ce6-dfae99553712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Audio">
+      <UniqueIdentifier>{2e755ae0-438e-41cf-854a-e8c6d10fb89c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="..\Game.Shared\Enemy.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game.Shared\EnemyBullet.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game.Shared\GalagaMain.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game.Shared\PlayerProjectile.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game.Shared\Spaceship.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game.Shared\WaveSpawner.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="GalagaManager.cpp">
+      <Filter>GalagaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="GalagaText.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="..\Game.Shared\Enemy.h">
+      <Filter>GalagaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game.Shared\EnemyBullet.h">
+      <Filter>GalagaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game.Shared\PlayerProjectile.h">
+      <Filter>GalagaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game.Shared\Spaceship.h">
+      <Filter>GalagaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game.Shared\WaveSpawner.h">
+      <Filter>GalagaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="GalagaManager.h">
+      <Filter>GalagaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="GalagaText.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Content\Textures\PlayerProjectile.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\explosion.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Explosion1.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Explosion2.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Explosion3.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Explosion4.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Explosion5.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Explosion6.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaEnemyGreen1.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaEnemyGreen2.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaEnemyRed1.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaEnemyRed2.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaEnemyYellow1.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaEnemyYellow2.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaShip.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\GalagaShipHurt.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\SpaceBackgroundLoopable.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\StartScreen.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.Universal_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Content\Audio\LossScreen.pkf">
+      <Filter>Content\Audio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\Shaders\SpriteRendererVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\SpriteRendererPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Content\Fonts\Arial_14_Regular.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Content\Audio\WinScreen.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\GreenEnemyDeath.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\LossScreen.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\PlayerDeath.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\PlayerShot.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\RedEnemyDeath.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\YellowEnemyDeath.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+    <Media Include="Content\Audio\GalagaStartScreen.wav">
+      <Filter>Content\Audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
